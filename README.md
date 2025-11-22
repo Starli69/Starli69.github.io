@@ -1,0 +1,274 @@
+[index.html](https://github.com/user-attachments/files/23690861/index.html)
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Расписание учебы</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: rgb(132, 12, 148);
+  }
+  #addForm {
+    margin-top: 20px;
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  #addForm input {
+    margin: 5px;
+  }
+  #addButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+<h1>Расписание группы 1ИСП-52</h1>
+
+<table id="scheduleTable">
+  <tr>
+    <th>День недели(Первая неделя)</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Понедельник</td>
+    <td>Информатика</td>
+    <td>11:35 - 13:05</td>
+    </tr>
+    <td>           </td>
+    <td>История</td>
+    <td>13:35 - 15:05</td>
+</tr>
+  <td>           </td>
+    <td>Биология</td>
+    <td>15:15 - 16:45</td>
+</tr>
+  <td>           </td>
+    <td>Русский язык</td>
+    <td>17:05 - 18:35</td>
+<tr>
+    <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Вторник</td>
+    <td>Физика</td>
+    <td>08:15 - 09:45</td>
+    </tr>
+    <td>           </td>
+    <td>Математика</td>
+    <td>13:35 - 15:05</td>
+</tr>
+  
+</tr>
+   <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+ </tr>
+  <tr contenteditable="true">
+    <td>Среда</td>
+    <td>Английский язык</td>
+    <td>08:15 - 09:45</td>
+    </tr>
+    
+</tr>
+ <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Четверг</td>
+    <td>Физика</td>
+    <td>11:35 - 13:05</td>
+    </tr>
+    <td>           </td>
+    <td>Биология</td>
+    <td>13:35 - 15:05</td>
+</tr>
+  <td>           </td>
+    <td>Физика</td>
+    <td>15:15 - 16:45</td>
+</tr>
+   <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Пятница</td>
+    <td>Физ-ра</td>
+    <td>11:35 - 13:05</td>
+</tr>
+    <td>           </td>
+    <td>Введение в информационные технологии</td>
+    <td>13:35 - 15:05</td>
+</tr>
+  <td>           </td>
+    <td>Русский язык</td>
+    <td>15:15 - 16:45</td>
+</tr>
+  <td>           </td>
+    <td>Введение в информационные технологии</td>
+    <td>17:05 - 18:35</td>
+<tr>
+    <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+  </tr>
+<tr contenteditable="true">
+    <td>Суббота</td>
+    <td>Математика</td>
+    <td>08:15 - 09:45</td>
+    </tr>
+    <td>           </td>
+    <td>Математика</td>
+    <td>09:55 - 11:25</td>
+</tr>
+  <td>           </td>
+    <td>История</td>
+    <td>11:35 - 13:05</td>
+</tr>
+    <th>День недели(Вторая неделя)</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Понедельник</td>
+    <td>История</td>
+    <td>15:15 - 16:45</td>
+    </tr>
+    <td>           </td>
+    <td>Математика</td>
+    <td>17:05 - 18:35</td>
+</tr>
+    <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Вторник</td>
+    <td>Математика</td>
+    <td>09:55 - 11:25</td>
+    </tr>
+     <td>           </td>
+    <td>Информатика</td>
+    <td>11:35 - 13:05</td>
+</tr>
+    <td>           </td>
+    <td>Информатика</td>
+    <td>13:35 - 15:05</td>
+</tr>
+ 
+</tr>
+   <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+ </tr>
+  <tr contenteditable="true">
+    <td>Среда</td>
+    <td>Английский язык</td>
+    <td>08:15 - 09:45</td>
+    </tr>
+     <td>           </td>
+     <td>Биология</td>
+    <td>09:55 - 11:25</td>
+    </tr>
+     <td>           </td>
+     <td>Информатика</td>
+    <td>11:35 - 13:05</td>
+    </tr>
+     <td>           </td>
+     <td>Информатика</td>
+    <td>13:35 - 15:05</td>
+    </tr>
+   
+</tr>
+ <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Четверг</td>
+    <td>Информатика</td>
+    <td>08:15 - 09:45</td>
+    </tr>
+    <td>           </td>
+    <td>Информатика</td>
+    <td>09:55 - 11:25</td>
+</tr>
+ <td>           </td>
+     <td>Биология</td>
+    <td>11:35 - 13:05</td>
+    </tr>
+  <td>           </td>
+    <td>Физика</td>
+    <td>13:35 - 15:05</td>
+</tr>
+   <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+</tr>
+  <tr contenteditable="true">
+    <td>Пятница</td>
+    <td>Физ-ра</td>
+    <td>11:35 - 13:05</td>
+</tr>
+    <td>           </td>
+    <td>Математика</td>
+    <td>13:35 - 15:05</td>
+</tr>
+  <td>           </td>
+    <td>Русский язык</td>
+    <td>15:15 - 16:45</td>
+</tr>
+  <td>           </td>
+    <td>Математика</td>
+    <td>17:05 - 18:35</td>
+<tr>
+    <th>День недели</th>
+    <th>Предмет</th>
+    <th>Время</th>
+  </tr>
+<tr contenteditable="true">
+    <td>Суббота</td>
+    <td>ЛИтература</td>
+    <td>08:15 - 09:45</td>
+    </tr>
+    <td>           </td>
+    <td>Литература</td>
+    <td>09:55 - 11:25</td>
+</tr>
+  <td>           </td>
+    <td>ЛИтература</td>
+    <td>11:35 - 13:05</td>
+</tr>
+
+
+
+  
+
+
+
+
+
